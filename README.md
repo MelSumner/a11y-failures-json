@@ -2,7 +2,9 @@
 
 This is a .json file that attempts to itemize all of the ways that websites, web-based applications, and tooling for developers of web-based applications could fail known accessibility criteria. 
 
-References used: 
+## Technical Details
+
+### References used 
 
 * [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 * [ARIA Role documentation](https://www.w3.org/WAI/PF/aria/roles)
@@ -11,7 +13,23 @@ References used:
 * [Section 508](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/single-file-version)
 * [axe-core](https://github.com/dequelabs/axe-core/tree/develop/lib/rules)
 
-## Contributing
+### Severity levels
+
+* Blocker - Complete loss of service, critical functionality, or data with no acceptable workaround. Includes significant privacy and security risks
+* Critical - Severe degradation of critical functionality or data; functionality is still available but is severely limited.  No acceptable workaround is available, but use is still possible in a restricted fashion
+* Major - Loss of critical functionality or data, but there is a reasonable workaround available
+* Minor - Loss or degradation of non-critical functionality or data.  A workaround may or may not be available
+
+### Testing
+
+For each failure item, it should be determined how the item can be tested. Options are:
+
+1. it can be linted for
+2. it has/can have an automated test
+3. a developer must write the test
+4. it must be manually tested for
+
+## Contributing to this repository
 
 Contributions are welcome. To contribute, please follow these steps: 
 

@@ -13,6 +13,10 @@
         "tags": [
           "failure 3",
           "images"
+        ],
+        "testing": [
+          "can be linted",
+          "must be manually tested"
         ]
       },
       {
