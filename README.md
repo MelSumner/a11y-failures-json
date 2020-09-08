@@ -1,8 +1,18 @@
 # Accessibility Failures
 
-This is a .json file that attempts to itemize all of the ways that websites, web-based applications, and tooling for developers of web-based applications could fail known accessibility criteria. 
+This is a JSON file that attempts to itemize all of the ways that websites, web-based applications, and tooling for developers of web-based applications could fail known accessibility criteria. 
 
 ## Technical Details
+
+For each itemized criteria, the following information is provided: 
+
+* id (auto incremented number)
+* criteria (array)
+* description
+* help (advice on how to fix the issue described)
+* severity
+* tags (array)
+* testing (array) 
 
 ### References used 
 
@@ -11,7 +21,7 @@ This is a .json file that attempts to itemize all of the ways that websites, web
 * [WCAG Techniques](https://www.w3.org/WAI/WCAG21/Techniques/#techniques)
 * [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf)
 * [Section 508](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/single-file-version)
-* [axe-core](https://github.com/dequelabs/axe-core/tree/develop/lib/rules)
+* [axe-core](https://github.com/dequelabs/axe-core/tree/develop/lib/rules) (has several "best practices" outlined)
 
 ### Severity levels
 
