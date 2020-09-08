@@ -4,7 +4,8 @@
       {
         "id": "1",
         "criteria": [
-          "WCAG 1.1.1 - Text Alternatives"
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
         ],
         "description": "images of text should not be used as background images",
         "recommendedFix": "put the text as content in the DOM",
@@ -17,7 +18,8 @@
       {
         "id": "2",
         "criteria": [
-          "WCAG 1.1.1 - Text Alternatives"
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
         ],
         "description": "decorative images should be marked up in a way that allows assistive tech to ignore them",
         "recommendedFix": "if an image is decorative, add the role of presentation or the role of none to the image",
@@ -30,7 +32,8 @@
       {
         "id": "3",
         "criteria": [
-          "WCAG 1.1.1 - Text Alternatives"
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
         ],
         "description": "decorative images should have an alt attribute, and the attributes value should be empty",
         "recommendedFix": "add the alt attribute with an empty value",
@@ -39,7 +42,6 @@
           "failure 39",
           "images"
         ]
-        
       }
     ]
   }
