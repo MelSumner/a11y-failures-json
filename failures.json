@@ -8,7 +8,7 @@
           "EN 301 549 - 9.1.1.1"
         ],
         "description": "images of text should not be used as background images",
-        "help": "put the text as content in the DOM",
+        "help": "the text should be added as content in the DOM & the background image should be removed",
         "severity": "",
         "tags": [
           "failure 3",
@@ -40,6 +40,74 @@
         "severity": "",
         "tags": [
           "failure 39",
+          "images"
+        ]
+      },
+      {
+        "id": "4",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
+        ],
+        "description": "the alt attribute should be present on img elements, area elements, input elements with the type of image, or elements with the role of img",
+        "help": "an alt attribute should be present",
+        "severity": "",
+        "tags": [
+          "failure 65",
+          "images"
+        ]
+      },
+      {
+        "id": "5",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
+        ],
+        "description": "text look-alikes (such as glyphs or HTML entities) should not be used to represent text without alt text",
+        "help": "add alt text to the glyphs or character entities being used to represent text",
+        "severity": "",
+        "tags": [
+          "failure 71",
+          "images"
+        ]
+      },
+      {
+        "id": "6",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
+        ],
+        "description": "ASCII art should not be used without providing a text alternative",
+        "help": "provide a text alternative for the ASCII art",
+        "severity": "",
+        "tags": [
+          "failure 72",
+          "images"
+        ]
+      },
+      {
+        "id": "7",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
+        ],
+        "description": "SVG elements with the role of image should have alt text",
+        "help": "add meaningful at text for SVG elements with the role of image",
+        "severity": "",
+        "tags": [
+          "images"
+        ]
+      },
+      {
+        "id": "8",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives",
+          "EN 301 549 - 9.1.1.1"
+        ],
+        "description": "SVG elements with the role of image should have a child title element",
+        "help": "add a title element with meaningful text as a child of the SVG element with the role attribute",
+        "severity": "",
+        "tags": [
           "images"
         ]
       }
