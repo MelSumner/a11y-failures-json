@@ -1,8 +1,8 @@
 # Accessibility Failures
 
-This is a JSON file that attempts to itemize all of the ways that websites, web-based applications, and tooling for developers of web-based applications could fail known accessibility criteria. 
+This is a JSON file that attempts to aggregate and uniformly itemize all of the mechanisms by which websites, web-based applications, and their associated developer tools can lead to failures in achieving known accessibility success criteria. 
 
-This JSON file can be used as a data source for any number of custom applications that can be created to track issues or guide accessibility engineering work.
+Currently, a single data source that contains all of this information does not exist. In principle, the completed dataset provides a much-needed consolidation of web accessibility failure reference information, and could be used for any number of custom applications (to track issues, guide accessibility engineering work, create new tooling, etc).
 
 ## Technical Details
 
