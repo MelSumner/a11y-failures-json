@@ -3,10 +3,11 @@
     "failure": [
       {
         "id": "1",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives"
+        ],
         "description": "images of text should not be used as background images",
-        "link": "https://www.w3.org/TR/WCAG21/#text-alternatives",
         "recommendedFix": "put the text as content in the DOM",
-        "rule": "WCAG 1.1.1 - Text Alternatives",
         "severity": "",
         "tags": [
           "failure 3",
@@ -15,10 +16,11 @@
       },
       {
         "id": "2",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives"
+        ],
         "description": "decorative images should be marked up in a way that allows assistive tech to ignore them",
-        "link": "https://www.w3.org/TR/WCAG21/#text-alternatives",
         "recommendedFix": "if an image is decorative, add the role of presentation or the role of none to the image",
-        "rule": "WCAG 1.1.1 - Text Alternatives",
         "severity": "",
         "tags": [
           "failure 38",
@@ -27,10 +29,11 @@
       },
       {
         "id": "3",
+        "criteria": [
+          "WCAG 1.1.1 - Text Alternatives"
+        ],
         "description": "decorative images should have an alt attribute, and the attributes value should be empty",
-        "link": "https://www.w3.org/TR/WCAG21/#text-alternatives",
         "recommendedFix": "add the alt attribute with an empty value",
-        "rule": "WCAG 1.1.1 - Text Alternatives",
         "severity": "",
         "tags": [
           "failure 39",
