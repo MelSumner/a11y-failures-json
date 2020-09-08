@@ -31,7 +31,8 @@
         "tags": [
           "failure 38",
           "images"
-        ]
+        ],
+        "testing": []
       },
       {
         "id": "3",
@@ -45,7 +46,8 @@
         "tags": [
           "failure 39",
           "images"
-        ]
+        ],
+        "testing": []
       },
       {
         "id": "4",
@@ -59,7 +61,8 @@
         "tags": [
           "failure 65",
           "images"
-        ]
+        ],
+        "testing": []
       },
       {
         "id": "5",
@@ -73,7 +76,8 @@
         "tags": [
           "failure 71",
           "images"
-        ]
+        ],
+        "testing": []
       },
       {
         "id": "6",
@@ -87,7 +91,8 @@
         "tags": [
           "failure 72",
           "images"
-        ]
+        ],
+        "testing": []
       },
       {
         "id": "7",
@@ -100,7 +105,8 @@
         "severity": "",
         "tags": [
           "images"
-        ]
+        ],
+        "testing": []
       },
       {
         "id": "8",
@@ -113,7 +119,8 @@
         "severity": "",
         "tags": [
           "images"
-        ]
+        ],
+        "testing": []
       }
     ]
   }
