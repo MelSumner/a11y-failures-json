@@ -2,17 +2,19 @@
 
 This is a JSON file that attempts to itemize all of the ways that websites, web-based applications, and tooling for developers of web-based applications could fail known accessibility criteria. 
 
+This JSON file can be used as a data source for any number of custom applications that can be created to track issues or guide accessibility engineering work.
+
 ## Technical Details
 
 For each itemized criteria, the following information is provided: 
 
-* id (auto incremented number)
-* criteria (array)
-* description
-* help (advice on how to fix the issue described)
-* severity
-* tags (array)
-* testing (array) 
+* id (string; auto-incremented number)
+* criteria (array; WCAG, EN or Section 508 reference(s))
+* description (string; short descriptor of issue)
+* help (string; advice on how to fix the issue described)
+* severity (string; should be single value of blocker, critical, major or minor (outlined below))
+* tags (array; should be logical and consistent with the others)
+* testing (array; can have multiple values (outlined below))
 
 ### References used 
 
