@@ -4,6 +4,8 @@ This is a JSON file that attempts to aggregate and uniformly itemize all of the 
 
 Currently, a single data source that contains all of this information does not exist. In principle, the completed dataset provides a much-needed consolidation of web accessibility failure reference information, and could be used for any number of custom applications (to track issues, guide accessibility engineering work, create new tooling, etc).
 
+NOTE: This is currently a work in progress!
+
 ## Technical Details
 
 For each itemized criteria, the following information is provided: 
