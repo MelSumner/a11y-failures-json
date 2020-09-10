@@ -29,6 +29,8 @@ For each itemized criteria, the following information is provided:
 
 ### Severity levels
 
+While a page's conformance is a pass or fail, giving itemized failures a severity level can help prioritize work. All issues, no matter what their severity, must be resolved for a page to be conformant.
+
 * Blocker - Complete loss of service, critical functionality, or data with no acceptable workaround. Includes significant privacy and security risks
 * Critical - Severe degradation of critical functionality or data; functionality is still available but is severely limited.  No acceptable workaround is available, but use is still possible in a restricted fashion
 * Major - Loss of critical functionality or data, but there is a reasonable workaround available
